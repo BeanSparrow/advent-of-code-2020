@@ -34,7 +34,7 @@ void readInputToArray()
         {
             if (inputNums[i] + inputNums[j] == 2020)
             {
-                //Once sume is found assign values to variables
+                //Once sum is found assign values to variables
                 value1 = inputNums[i];
                 value2 = inputNums[j];
             }
