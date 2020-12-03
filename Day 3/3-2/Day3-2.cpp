@@ -53,7 +53,7 @@ int inputLineRead(int xSlope, int ySlope)
     return treesHit;
 }
 
-int main()
+int resultLooper()
 {
     //Provided Slope Combos
     int slopeArr[5][2] = {
@@ -80,7 +80,12 @@ int main()
     {
         result *= resultArr[j];
     }
+    return result;
+}
 
+int main()
+{
+    unsigned long int result = resultLooper();
     //Report
     std::cout << result;
     return 0;
