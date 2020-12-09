@@ -12,6 +12,7 @@ void inputLineRead()
 
     string line;
 
+    //Check previous group lines strings
     string answerChecker1;
     string answerChecker2;
 
